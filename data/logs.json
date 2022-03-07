@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 0,
+    "description": "Tira vermelha",
+    "quantity": 30,
+    "event_type": "ENTRADA",
+    "date": "03/03/2022"
+  },
+  {
+    "_id": 1,
+    "description": "Tira Verde",
+    "quantity": 46,
+    "event_type": "ENTRADA",
+    "date": "03/03/2022"
+  },
+  {
+    "_id": 2,
+    "description": "Tira Verde",
+    "quantity": 12,
+    "event_type": "ENTRADA",
+    "date": "03/03/2022"
+  },
+  {
+    "_id": 3,
+    "description": "Tira Verde",
+    "quantity": 12,
+    "event_type": "SAIDA",
+    "date": "03/03/2022"
+  }
+]
