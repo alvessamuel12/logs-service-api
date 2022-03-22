@@ -65,8 +65,12 @@ app.delete("/log/:id", (req, res) => {
 
 // writeLogs();
 
-app.listen(3000, () => console.log('Is working!'));
-
+// Start the server
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}`);
+  console.log('Press Ctrl+C to quit.');
+});
 
 
 function getLogs() {
